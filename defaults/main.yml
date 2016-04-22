@@ -1,2 +1,3 @@
 ---
 # defaults file for zookeeper
+zookeeper_hosts: "{{ groups['zookeeper_all'] }}"
